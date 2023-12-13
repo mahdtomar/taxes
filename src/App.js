@@ -1,13 +1,9 @@
-import './index.css'
+import "./index.css";
+import Nav from "./components/navbar/Nav";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <p className="g-3">
-          this is a paragraph this is a paragraph this is a paragraph this is a
-          paragraph this is a paragraph this is a paragraph this is a paragraph
-        </p>
-      </div>
+      <Nav />
     </div>
   );
 }
