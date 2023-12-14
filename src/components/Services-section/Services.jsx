@@ -1,9 +1,10 @@
 import React from "react";
 import ServiceBos from "./ServiceBos";
-
+import icon from "../../assets/icons/calenderCheck.svg";
+import "./scss/services.css";
 const Services = () => {
   return (
-    <div className="what we provide">
+    <div className="what-we-provide">
       <div className="container">
         <span>our services</span>
         <h2>what we provide</h2>
@@ -12,32 +13,32 @@ const Services = () => {
         </p>
         <div className="grid-12">
           <ServiceBos
-            img=""
+            img={icon}
             title="service title"
             summary="this is a brief summary about the service we provide"
           />
           <ServiceBos
-            img=""
+            img={icon}
             title="service title"
             summary="this is a brief summary about the service we provide"
           />
           <ServiceBos
-            img=""
+            img={icon}
             title="service title"
             summary="this is a brief summary about the service we provide"
           />
           <ServiceBos
-            img=""
+            img={icon}
             title="service title"
             summary="this is a brief summary about the service we provide"
           />
           <ServiceBos
-            img=""
+            img={icon}
             title="service title"
             summary="this is a brief summary about the service we provide"
           />
           <ServiceBos
-            img=""
+            img={icon}
             title="service title"
             summary="this is a brief summary about the service we provide"
           />

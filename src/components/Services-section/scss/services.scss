@@ -1,0 +1,17 @@
+.what-we-provide {
+  .container {
+    text-align: center;
+
+    > span {
+      display: block;
+    }
+
+    .grid-12 {
+      gap: calc(calc((1 - (calc(9 / 12))) / 2) * 100%);
+      // 1 means 100% of the width minus the 9 columns out of 12 it will be 25% of the width devided by 2 because there are 2 spaces gives out 12.5%
+      .service-box {
+        grid-column: span 3;
+      }
+    }
+  }
+}

@@ -8,6 +8,10 @@
   margin: 0px auto;
   max-width: 1440px;
 }
+.grid-12{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
 body {
 
   margin: 0 auto;

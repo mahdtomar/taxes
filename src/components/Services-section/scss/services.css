@@ -1,0 +1,12 @@
+.what-we-provide .container {
+  text-align: center;
+}
+.what-we-provide .container > span {
+  display: block;
+}
+.what-we-provide .container .grid-12 {
+  gap: 12.5%;
+}
+.what-we-provide .container .grid-12 .service-box {
+  grid-column: span 3;
+}/*# sourceMappingURL=services.css.map */

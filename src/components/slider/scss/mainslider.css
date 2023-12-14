@@ -1,0 +1,31 @@
+.slider .slide {
+  display: flex;
+  height: 100vh;
+  transition: all 0.3s;
+  overflow: hidden;
+  min-width: 100%;
+  max-width: 1440px;
+}
+.slider .slide img {
+  display: block;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s all;
+}
+.slider .slide img.before {
+  left: -100%;
+  visibility: hidden;
+}
+.slider .slide img.in {
+  left: 0%;
+}
+.slider .slide img.after {
+  visibility: hidden;
+  left: 100%;
+}
+.slider .slide img.hide {
+  visibility: hidden;
+}/*# sourceMappingURL=mainslider.css.map */
