@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./scss/mainslider.css";
 import hk1 from "../../assets/images/HK (1).jpg";
 import hk2 from "../../assets/images/HK (2).jpg";
-import hk3 from "../../assets/images/HK (3).jpg";
-import hk4 from "../../assets/images/HK (4).jpg";
-import hk5 from "../../assets/images/HK (5).jpg";
-import hk6 from "../../assets/images/HK (6).jpg";
+// import hk3 from "../../assets/images/HK (3).jpg";
+// import hk4 from "../../assets/images/HK (4).jpg";
+// import hk5 from "../../assets/images/HK (5).jpg";
+// import hk6 from "../../assets/images/HK (6).jpg";
 
 const MainSlider = () => {
   //   const [currentSlide, setCurrentSlide] = useState(0);
   //   const sliderImages = [hk1, hk2, hk3, hk4, hk5, hk6];
-  const sliderImages = [hk1, hk2];
+  // const sliderImages = [hk1, hk2];
   //   const [imagesArray, setImagesArray] = useState(sliderImages);
   //   useEffect(() => {
   //     const intervalId = setInterval(() => {

@@ -1,11 +1,15 @@
 nav {
   position: fixed;
   top: 0px;
-  left: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: white;
+  width: 100%;
 }
 nav .container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  display: flex;
+  justify-content: space-between;
   gap: 16px;
   padding: 16px;
 }
@@ -13,7 +17,7 @@ nav .container .logo {
   grid-column: 1/3;
 }
 nav .container ul {
-  grid-column: 4/9;
+  grid-column: 3/11;
   justify-self: center;
 }
 nav .container ul a {
@@ -24,6 +28,20 @@ nav .container ul a {
   text-transform: capitalize;
 }
 nav .container .login {
-  grid-column: 10/13;
+  grid-column: 11/13;
   justify-self: end;
+}
+nav .container .login button {
+  padding: 8px 16px;
+  font-weight: bold;
+  border: none;
+  margin-right: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+nav .container .login button.signup {
+  background-color: #ff5f5c;
+  color: white;
 }/*# sourceMappingURL=nav.css.map */

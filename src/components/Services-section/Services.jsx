@@ -6,12 +6,12 @@ const Services = () => {
   return (
     <div className="what-we-provide">
       <div className="container">
-        <span>our services</span>
+        <span className="fancy-text">our services</span>
         <h2>what we provide</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, itaque.
         </p>
-        <div className="grid-12">
+        <div className="container grid-12">
           <ServiceBos
             img={icon}
             title="service title"

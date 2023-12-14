@@ -1,0 +1,33 @@
+.special-offer {
+  .container.flex-2 {
+    gap: 20px;
+    padding: 0px 20px;
+    > div {
+      > span {
+        font-size: 20px;
+      }
+      > h3 {
+        font-size: 40px;
+        text-transform: capitalize;
+      }
+      .offer-point {
+        margin: 10px 0px;
+        gap: 20px;
+        .img {
+          padding: 20px;
+          border-radius: 50%;
+          display: grid;
+          place-items: center;
+          background-color: #08115d;
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+        span {
+            
+        }
+      }
+    }
+  }
+}

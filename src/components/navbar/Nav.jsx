@@ -13,8 +13,8 @@ const Nav = () => {
           <Link to={""}>Contacts</Link>
         </ul>
         <div className="login">
-          <button>Login </button>
-          <button>Sign up</button>
+          <button className="login-btn">Login</button>
+          <button className="signup">Sign up</button>
         </div>
       </div>
     </nav>

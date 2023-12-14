@@ -1,12 +1,45 @@
+.what-we-provide {
+  margin: 100px auto;
+}
 .what-we-provide .container {
   text-align: center;
 }
 .what-we-provide .container > span {
   display: block;
+  font-size: 27px;
+  color: #86d9a8;
+}
+.what-we-provide .container > h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px 0px 15px;
+  text-transform: capitalize;
 }
 .what-we-provide .container .grid-12 {
-  gap: 12.5%;
+  margin-top: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 75px;
+  padding: 0px 35px;
 }
 .what-we-provide .container .grid-12 .service-box {
-  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.what-we-provide .container .grid-12 .service-box img {
+  width: 100px;
+}
+.what-we-provide .container .grid-12 .service-box span {
+  display: block;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0px 0px 20px;
+}
+.what-we-provide .container .grid-12 .service-box p {
+  color: rgba(0, 0, 0, 0.8);
 }/*# sourceMappingURL=services.css.map */

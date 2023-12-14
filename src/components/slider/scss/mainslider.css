@@ -1,10 +1,22 @@
+.slider {
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+  justify-content: end;
+  grid-template-columns: 1fr 1fr;
+}
 .slider .slide {
   display: flex;
-  height: 100vh;
+  height: 100%;
   transition: all 0.3s;
-  overflow: hidden;
   min-width: 100%;
   max-width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
 }
 .slider .slide img {
   display: block;
@@ -28,4 +40,21 @@
 }
 .slider .slide img.hide {
   visibility: hidden;
+}
+.slider .grid-12 {
+  position: relative;
+  z-index: 2;
+  grid-template-columns: 1fr;
+  grid-column: 2/3;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  width: 80%;
+  border-radius: 10px;
+}
+.slider .grid-12 h1 {
+  margin: 15px 0px;
+}
+.slider .grid-12 p {
+  font-size: larger;
+  line-height: 150%;
 }/*# sourceMappingURL=mainslider.css.map */
